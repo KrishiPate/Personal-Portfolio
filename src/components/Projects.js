@@ -66,7 +66,7 @@ export const Projects = () => {
                     <Nav.Item>
                         <Nav.Link eventKey="first">
                                 <a style={{color: 'white',textDecoration:'none'}} href="https://github.com/KrishiPate" target="_blank" rel="noopener noreferrer">
-                                    My Github(do open in a new tab)
+                                    My Github
                                 </a>
                             
                         </Nav.Link>
