@@ -14,39 +14,35 @@ export const Projects = () => {
   const projects = [
     {
       title: "Movie Recomendation System (Link)",
-      description: "Design & Development",
+      description: "Full stack Project",
       imgUrl: projImg1,
-      siteUrl: "https://github.com/KrishiPate/MOVIE_RECOMENDATION_SYSTEM",
+      siteUrl: "http://krishipatel.pythonanywhere.com/",
     },
     {
       title: "Visual Microphone (Link)",
-      description: "Design & Development",
+      description: "Video Processing",
       imgUrl: projImg2,
       siteUrl: "https://github.com/KrishiPate/VISUAL-MICROPHONE",
     },
     {
       title: "Sorting Visualizer (Link)",
-      description: "Design & Development",
+      description: "Web Development",
       imgUrl: projImg3,
       siteUrl: "https://krishipate.github.io/Sorting_visualizer/",
     },
     {
       title: "License Plate detection (Link)",
-      description: "Design & Development",
+      description: "Image Processing",
       imgUrl: projImg4,
       siteUrl: "https://github.com/KrishiPate/License-plate-detection-in-image",
     },
     {
       title: "Denoising and Deblurring (Link)",
-      description: "Design & Development",
+      description: "Signal Processing",
       imgUrl: projImg5,
       siteUrl: "https://github.com/KrishiPate/Temperature-Sensor-Correction",
     },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
+
   ];
 
   return (
@@ -66,7 +62,7 @@ export const Projects = () => {
                     <Nav.Item>
                         <Nav.Link eventKey="first">
                                 <a style={{color: 'white',textDecoration:'none'}} href="https://github.com/KrishiPate" target="_blank" rel="noopener noreferrer">
-                                    My Github
+                                    My Github (New Tab)
                                 </a>
                             
                         </Nav.Link>
