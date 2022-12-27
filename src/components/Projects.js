@@ -60,15 +60,21 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                        <Nav.Link eventKey="first">
-                                <a style={{color: 'white',textDecoration:'none'}} href="https://github.com/KrishiPate" target="_blank" rel="noopener noreferrer">
-                                    My Github (New Tab)
-                                </a>
-                            
-                        </Nav.Link>
-                    
-                      
+                        
+                          {/* <Nav.Link eventKey="first">
+                                  <a className="gitlink" style={{color: 'white',textDecoration:'none'}} href="https://github.com/KrishiPate">
+                                      My Github
+                                  </a>
+                              
+                          </Nav.Link> */}
+                          <Nav.Link eventKey="first"  href="https://github.com/KrishiPate" className="text-white">
+                                  {/* <a className="gitlink" style={{color: 'white',textDecoration:'none'}}> */}
+                                      My Github
+                                  {/* </a> */}
+                              
+                          </Nav.Link>
                     </Nav.Item>
+                    
                     {/* <Nav.Item>
                       <Nav.Link eventKey="second">Tab 2</Nav.Link>
                     </Nav.Item>
