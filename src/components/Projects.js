@@ -5,7 +5,7 @@ import projImg2 from "../assets/img/project-img5.jpg";
 import projImg3 from "../assets/img/project-img6.jpg";
 import projImg4 from "../assets/img/project-img7.jpg";
 import projImg5 from "../assets/img/project-img8.jpg";
-// import projImg6 from "../assets/img/project-img8.jpg";
+import projImg6 from "../assets/img/project-img9.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -36,13 +36,20 @@ export const Projects = () => {
       imgUrl: projImg4,
       siteUrl: "https://github.com/KrishiPate/License-plate-detection-in-image",
     },
+    
+    {
+      title: "Bomb.Money Dashboard (Link)",
+      description: "Web dev and Blockchain",
+      imgUrl: projImg6,
+      siteUrl: "https://github.com/KrishiPate/bomb-dashboard-KrishiPatel",
+    },
+
     {
       title: "Denoising and Deblurring (Link)",
       description: "Signal Processing",
       imgUrl: projImg5,
       siteUrl: "https://github.com/KrishiPate/Temperature-Sensor-Correction",
     },
-
   ];
 
   return (
