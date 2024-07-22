@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Student @ IIT Jodhpur","SDE Aspirant"];
+  const toRotate = ["I am Krishi Patel"];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Krishi Patel a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Student @ IIT Jodhpur", "SDE Aspirant"]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a native of Ahmedabad (Gujarat) and currently persuing B.Tech in Electrical Engineering from IIT Jodhpur. Expected Graduation year 2024. If intrested do check out my resume via Linkedin (link is given in the Navigation Bar). Thank You for visiting. </p>
+                <h1>{`Hi! `}<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Student @ IIT Jodhpur", "SDE Aspirant"]'><span className="wrap">{text}</span></span></h1>
+                  <p>I am a native of Ahmedabad (Gujarat) and Electrical Engineering graduate from IIT Jodhpur. If intrested do check out my resume via Linkedin (link is given in the Navigation Bar). Thank You for visiting. </p>
                   {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>

@@ -16,7 +16,7 @@ export const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 1
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -35,33 +35,38 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Below mentioned are my skills.<br></br>Like to spend more time on DSA, Mathematical and Locical problem solving comparatively.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>DSA</h5>
+                            <div className="skill-content">
+                                <div className="ml-dl">
+                                    <h3>Development</h3>
+                                    <hr></hr>
+                                    <ul>
+                                        <li>ReactJS</li>
+                                        <li>NodeJS</li>
+                                        <li>Flask</li>
+                                        <li>Django</li>
+                                    </ul>
+                                </div>
+                                <div className="ml-dl">
+                                    <h3>ML/DL</h3>
+                                    <hr></hr>
+                                    <ul>
+                                        <li>Sklearn</li>
+                                        <li>Keras</li>
+                                        <li>NLP</li>
+                                        <li>Computer Vision</li>
+                                    </ul>
+                                </div>
+                                <div className="ml-dl">
+                                    <h3>OPS</h3>
+                                    <hr></hr>
+                                    <ul>
+                                        <li>MLOps</li>
+                                        <li>ZenML</li>
+                                        <li>AWS</li>
+                                        <li>ASURE</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Competetive Programming</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Mathematical and Logical problem solving</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Image and Video processing</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Machine Learning and Deep Learning</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Front end development</h5>
-                            </div>
-                        </Carousel>
                     </div>
                 </div>
             </div>
